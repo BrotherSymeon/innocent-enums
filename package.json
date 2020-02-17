@@ -1,10 +1,14 @@
 {
   "devDependencies": {
-    "bili": "4.8.1"
+    "@babel/core": "7.8.4",
+    "@babel/preset-env": "7.8.4",
+    "babel-jest": "25.1.0",
+    "bili": "4.8.1",
+    "jest": "25.1.0"
   },
   "name": "innocent-enums",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "dependencies": {
     "acorn": "6.4.0",
     "acorn-dynamic-import": "4.0.0",
@@ -50,6 +54,9 @@
     "css-unit-converter": "1.1.1",
     "css-what": "3.2.1",
     "cssesc": "0.1.0",
+    "cssnano": "4.1.10",
+    "cssnano-preset-default": "4.0.7",
+    "cssnano-util-get-arguments": "4.0.0",
     "cssnano-util-get-match": "4.0.0",
     "cssnano-util-raw-cache": "4.0.1",
     "cssnano-util-same-parent": "4.0.1",
@@ -159,6 +166,7 @@
     "postcss-modules-local-by-default": "1.2.0",
     "postcss-modules-scope": "1.1.0",
     "postcss-modules-values": "1.3.0",
+    "postcss-normalize-charset": "4.0.1",
     "postcss-normalize-display-values": "4.0.2",
     "postcss-normalize-positions": "4.0.2",
     "postcss-normalize-repeat-style": "4.0.2",
@@ -178,7 +186,6 @@
     "promise.series": "0.2.0",
     "q": "1.5.1",
     "regenerate": "1.4.0",
-    "postcss-normalize-charset": "4.0.1",
     "regenerate-unicode-properties": "8.1.0",
     "regenerator-transform": "0.14.1",
     "regexpu-core": "4.6.0",
@@ -229,17 +236,15 @@
     "unicode-property-aliases-ecmascript": "1.0.5",
     "uniq": "1.0.1",
     "uniqs": "2.0.0",
-    "util.promisify": "1.0.1",
     "unquote": "1.1.1",
+    "util.promisify": "1.0.1",
     "vendors": "1.0.4",
     "vlq": "0.2.3",
-    "wcwidth": "1.0.1",
-    "cssnano-util-get-arguments": "4.0.0",
-    "cssnano": "4.1.10",
-    "cssnano-preset-default": "4.0.7"
+    "wcwidth": "1.0.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "bili --format cjs --format esm --format umd --module-name Enumeration",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
