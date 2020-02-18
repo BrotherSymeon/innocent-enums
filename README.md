@@ -3,6 +3,7 @@
 This is a simple enum Object that allows you to easily do this:
 
 ```javascript
+
 const fileColumns = new Enumeration([ 'Index', 'FirstName', 'MiddleName', 'LastName' ])
 
 console.log(`Get the index of the second column: ${fileColumns.FirstName}`);
