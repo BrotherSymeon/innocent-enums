@@ -6,7 +6,7 @@
     "bili": "4.8.1",
     "jest": "25.1.0"
   },
-  "name": "innocent-enums",
+  "name": "@brothersymeon/innocent-enums",
   "version": "1.0.0",
   "main": "dist/index.js",
   "dependencies": {
@@ -249,6 +249,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BrotherSymeon/innocent-enums.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/brothersymeon"
   },
   "author": "",
   "license": "ISC",
