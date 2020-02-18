@@ -7,7 +7,7 @@
     "jest": "25.1.0"
   },
   "name": "@brothersymeon/innocent-enums",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "dependencies": {
     "acorn": "6.4.0",
