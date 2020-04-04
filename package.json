@@ -10,7 +10,7 @@
   "version": "1.0.1",
   "main": "dist/index.js",
   "dependencies": {
-    "acorn": "6.4.0",
+    "acorn": "6.4.1",
     "acorn-dynamic-import": "4.0.0",
     "acorn-jsx": "5.1.0",
     "alphanum-sort": "1.0.2",
