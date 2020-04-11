@@ -19,7 +19,13 @@ export default class Enumeration {
     }
     function fromObject(obj) {
       const retVal = {};
+      for (var key in obj) {
+        if (obj.hasOwnProperty(key)) {
+          retVal[retVal[key.toUpperCase()]] = key.toUpperCase();
+        }
+      };
 
+      Object.freeze(retVal);
       return retVal;
     }
 
