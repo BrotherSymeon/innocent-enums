@@ -144,7 +144,7 @@
     "os-homedir": "2.0.0",
     "p-queue": "2.4.2",
     "parse-json": "4.0.0",
-    "path-parse": "1.0.6",
+    "path-parse": "1.0.7",
     "pify": "3.0.0",
     "postcss": "7.0.26",
     "postcss-calc": "7.0.1",
