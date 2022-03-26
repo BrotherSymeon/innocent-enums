@@ -128,7 +128,7 @@
     "mdn-data": "2.0.4",
     "merge-stream": "2.0.0",
     "mimic-fn": "1.2.0",
-    "minimist": "1.2.0",
+    "minimist": "1.2.6",
     "mkdirp": "0.5.1",
     "ms": "2.1.2",
     "node-releases": "1.1.49",
