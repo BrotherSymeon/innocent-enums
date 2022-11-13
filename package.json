@@ -117,7 +117,7 @@
     "json5": "2.1.1",
     "leven": "3.1.0",
     "levenary": "1.1.1",
-    "loader-utils": "1.2.3",
+    "loader-utils": "1.4.1",
     "lodash": "4.17.15",
     "lodash.camelcase": "4.3.0",
     "lodash.memoize": "4.1.2",
